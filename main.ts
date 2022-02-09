@@ -8,7 +8,7 @@ input.onGesture(Gesture.Shake, function () {
         . # # # .
         `)
     basic.pause(2000)
-    basic.showString("Hello!")
+    basic.showString("Win")
     soundExpression.happy.playUntilDone()
     music.setVolume(255)
     basic.showIcon(IconNames.Happy)
