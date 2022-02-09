@@ -10,7 +10,7 @@ input.onGesture(Gesture.Shake, function () {
     basic.pause(2000)
     basic.showString("Hello!")
     soundExpression.happy.playUntilDone()
-    music.setVolume(29)
+    music.setVolume(255)
     basic.showIcon(IconNames.Happy)
 })
 basic.forever(function () {
