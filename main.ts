@@ -13,3 +13,6 @@ input.onGesture(Gesture.Shake, function () {
     music.setVolume(29)
     basic.showIcon(IconNames.Happy)
 })
+basic.forever(function () {
+	
+})
